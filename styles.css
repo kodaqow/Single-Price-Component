@@ -98,4 +98,9 @@ ul{
     background:#4abebd;
 }
 
-
+/*Pro zařízení menší než 768px bude aplikována tato medie query*/
+@media only screen and (max-width: 768px) {
+    .box {
+        display: none;
+    }
+}
